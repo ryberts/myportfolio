@@ -26,7 +26,7 @@ portfolio/
 ├── script.js # Interactive functionality
 └── assets/
 ├── images/ # Optimized profile and certificate images
-└── cv/ # Resume PDF downlo
+└── cv/ # Resume PDF download
 
 
 ## 🎨 Design Features
@@ -38,21 +38,24 @@ portfolio/
 - **Smooth Animations** - CSS transitions and transforms
 
 ### **Color System**
+
 ```css
 /* Light Theme */
---bg-primary: #ffffff
---accent-primary: #3b82f6
---text-primary: #1a1a1a
+--bg-primary: #ffffff;
+--accent-primary: #3b82f6;
+--text-primary: #1a1a1a;
 
-/* Dark Theme */ 
---bg-primary: #0f172a
---accent-primary: #3b82f6  
---text-primary: #f1f5f9
+/* Dark Theme */
+--bg-primary: #0f172a;
+--accent-primary: #3b82f6;
+--text-primary: #f1f5f9;
 
 ```
 
-###⚡ **Interactive Features**
-Navigation System
+
+##⚡ **Interactive Features**
+
+### Navigation System
 
 Single Page Application (SPA) with seamless tab switching
 
@@ -62,7 +65,7 @@ Active state persistence across sessions
 
 Smooth scroll animations
 
-### **Portfolio Gallery**
+Portfolio Gallery
 Certificate lightbox preview with click-to-view
 
 Hover animations and interactive elements
@@ -107,8 +110,8 @@ Professional social links
 
 Direct communication options
 
-### 🚀 **Performance & Accessibility Optimizations**
-
+🚀 Performance & Accessibility
+Optimizations
 Zero Dependencies - Faster load times and better security
 
 CSS Grid/Flexbox - Efficient, modern layouts
@@ -126,8 +129,7 @@ Full keyboard navigation
 
 Screen reader friendly
 
-### 🌐 **Browser Support**
-
+🌐 Browser Support
 Chrome (Latest)
 
 Firefox (Latest)
@@ -138,7 +140,7 @@ Edge (Latest)
 
 Mobile browsers (iOS/Android)
 
-### 📈 **Deployment**
+📈 Deployment
 Production Environment
 Domain: ryberts.cloud
 
@@ -157,8 +159,7 @@ Performance optimization (CDN)
 
 Professional deployment practices
 
-### 💼 **Professional Value**
-
+💼 Professional Value
 This portfolio demonstrates real-world expertise in:
 
 ✅ Frontend Development - Modern, responsive web design
@@ -167,7 +168,7 @@ This portfolio demonstrates real-world expertise in:
 ✅ Performance Optimization - CDN integration and fast loading
 ✅ Professional Standards - Production deployment and maintenance
 
-### 🔧 **Local Development**
+🔧 Local Development
 Clone or download project files
 
 Open index.html in any modern web browser
@@ -184,4 +185,3 @@ Security & Network Operations Professional
 🌐 Portfolio: https://ryberts.cloud
 
 Built with modern web standards and deployed on enterprise AWS infrastructure. 🚀
-
