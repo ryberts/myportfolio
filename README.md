@@ -4,16 +4,16 @@
 
 ## 🚀 Overview
 
-A modern, high-performance portfolio website showcasing my expertise as a Security & Network Operations professional. Built with pure HTML, CSS, and JavaScript, deployed on AWS with enterprise-grade infrastructure for optimal performance and security.
+A modern, high-performance portfolio website showcasing my expertise as a **Security & Network Operations professional**. Built with pure **HTML, CSS, and JavaScript**, deployed on **AWS** with enterprise-grade infrastructure for optimal performance and security.
 
 ## 🛠️ Technical Stack
 
-### Frontend
+### **Frontend**
 - **HTML5** - Semantic markup with accessibility focus
 - **CSS3** - Custom properties, Grid, Flexbox, and smooth animations
 - **JavaScript (ES6+)** - Vanilla JS with zero external dependencies
 
-### Infrastructure
+### **Infrastructure**
 - **AWS CloudFront** - Global CDN for lightning-fast delivery
 - **SSL/TLS** - Secure HTTPS connections
 - **Custom Domain** - Professional branding (ryberts.cloud)
@@ -26,18 +26,18 @@ portfolio/
 ├── script.js # Interactive functionality
 └── assets/
 ├── images/ # Optimized profile and certificate images
-└── cv/ # Resume PDF download
+└── cv/ # Resume PDF downlo
 
 
 ## 🎨 Design Features
 
-### Visual Design
+### **Visual Design**
 - **Dark/Light Theme Toggle** - Persistent user preference
 - **Centered Layout** - Modern, professional appearance
 - **Responsive Grid System** - Mobile-first approach
 - **Smooth Animations** - CSS transitions and transforms
 
-### Color System
+### **Color System**
 ```css
 /* Light Theme */
 --bg-primary: #ffffff
@@ -49,6 +49,7 @@ portfolio/
 --accent-primary: #3b82f6  
 --text-primary: #f1f5f9
 
+```
 ⚡ Interactive Features
 Navigation System
 Single Page Application (SPA) with seamless tab switching
@@ -174,8 +175,9 @@ Test responsive design across different screen sizes
 📞 Contact
 Ryan Bertulfo
 Security & Network Operations Professional
-📧 ryanbertulfo@gmail.com
-📍 Singapore
-🌐 https://ryberts.cloud
+📧 Email: ryanbertulfo@gmail.com
+📍 Location: Singapore
+🌐 Portfolio: https://ryberts.cloud
 
 Built with modern web standards and deployed on enterprise AWS infrastructure. 🚀
+
