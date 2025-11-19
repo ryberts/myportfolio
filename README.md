@@ -37,25 +37,9 @@ portfolio/
 - **Responsive Grid System** - Mobile-first approach
 - **Smooth Animations** - CSS transitions and transforms
 
-### **Color System**
+⚡ **Interactive Features**
 
-```css
-/* Light Theme */
---bg-primary: #ffffff;
---accent-primary: #3b82f6;
---text-primary: #1a1a1a;
-
-/* Dark Theme */
---bg-primary: #0f172a;
---accent-primary: #3b82f6;
---text-primary: #f1f5f9;
-
-```
-
-
-##⚡ **Interactive Features**
-
-### Navigation System
+Navigation System
 
 Single Page Application (SPA) with seamless tab switching
 
@@ -185,3 +169,21 @@ Security & Network Operations Professional
 🌐 Portfolio: https://ryberts.cloud
 
 Built with modern web standards and deployed on enterprise AWS infrastructure. 🚀
+
+
+### **Color System**
+
+```css
+/* Light Theme */
+--bg-primary: #ffffff;
+--accent-primary: #3b82f6;
+--text-primary: #1a1a1a;
+
+/* Dark Theme */
+--bg-primary: #0f172a;
+--accent-primary: #3b82f6;
+--text-primary: #f1f5f9;
+
+```
+
+
