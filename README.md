@@ -1,104 +1,101 @@
-Ryan Bertulfo - Portfolio Website
-🌐 Live Site: https://ryberts.cloud
+# Ryan Bertulfo - Portfolio Website
 
-🚀 Overview
-A modern, responsive portfolio website showcasing my expertise as a Security & Network Operations professional. Built with pure HTML, CSS, and JavaScript, deployed on AWS with enterprise-grade infrastructure.
+🌐 **Live Site:** [https://ryberts.cloud](https://ryberts.cloud)
 
-🛠️ Technical Stack
-Frontend
-HTML5 - Semantic markup and accessibility
+## 🚀 Overview
 
-CSS3 - Custom properties, Grid, Flexbox, and animations
+A modern, high-performance portfolio website showcasing my expertise as a Security & Network Operations professional. Built with pure HTML, CSS, and JavaScript, deployed on AWS with enterprise-grade infrastructure for optimal performance and security.
 
-JavaScript (ES6+) - Vanilla JS with no external dependencies
+## 🛠️ Technical Stack
 
-Infrastructure
-AWS CloudFront - Global CDN for performance
+### Frontend
+- **HTML5** - Semantic markup with accessibility focus
+- **CSS3** - Custom properties, Grid, Flexbox, and smooth animations
+- **JavaScript (ES6+)** - Vanilla JS with zero external dependencies
 
-SSL/TLS - Secure HTTPS connections
+### Infrastructure
+- **AWS CloudFront** - Global CDN for lightning-fast delivery
+- **SSL/TLS** - Secure HTTPS connections
+- **Custom Domain** - Professional branding (ryberts.cloud)
 
-Custom Domain - Professional branding (ryberts.cloud)
+## 📁 Project Structure
 
-📁 Project Structure
-text
 portfolio/
-├── index.html          # Main HTML structure
-├── styles.css          # Complete styling system
-├── script.js           # Interactive functionality
+├── index.html # Main HTML structure
+├── styles.css # Complete styling system
+├── script.js # Interactive functionality
 └── assets/
-    ├── images/         # Profile and certificate images
-    └── cv/             # Resume PDF download
-    
-🎨 Design Features
-Visual Design
-Dark/Light Theme Toggle - Persistent user preference
+├── images/ # Optimized profile and certificate images
+└── cv/ # Resume PDF download
 
-Centered Layout - Modern, professional appearance
 
-Responsive Grid System - Mobile-first approach
+## 🎨 Design Features
 
-Smooth Animations - CSS transitions and transforms
+### Visual Design
+- **Dark/Light Theme Toggle** - Persistent user preference
+- **Centered Layout** - Modern, professional appearance
+- **Responsive Grid System** - Mobile-first approach
+- **Smooth Animations** - CSS transitions and transforms
 
-Color System
-css
+### Color System
+```css
 /* Light Theme */
 --bg-primary: #ffffff
 --accent-primary: #3b82f6
 --text-primary: #1a1a1a
 
-/* Dark Theme */
+/* Dark Theme */ 
 --bg-primary: #0f172a
 --accent-primary: #3b82f6  
 --text-primary: #f1f5f9
+
 ⚡ Interactive Features
 Navigation System
-Single Page Application (SPA) with tab switching
+Single Page Application (SPA) with seamless tab switching
 
-Keyboard shortcuts (Alt+1,2,3,4)
+Keyboard shortcuts (Alt+1,2,3,4) for quick navigation
 
-Active state persistence
+Active state persistence across sessions
 
 Smooth scroll animations
 
 Portfolio Gallery
-Certificate lightbox preview
+Certificate lightbox preview with click-to-view
 
-Click-to-view functionality
+Hover animations and interactive elements
 
-Hover animations
-
-Projects and certifications tabs
+Projects and certifications organized in tabs
 
 User Experience
 Scroll progress indicator
 
-Download notifications
+Download notifications with visual feedback
 
 Responsive mobile navigation
 
-Accessibility features
+Full accessibility support
 
 📱 Sections
 1. About Me
-Professional summary
+Professional summary and background
 
 Core competencies grid
 
-Skill tags and categories
+Skill tags and technical categories
 
 2. Resume
-Timeline-based experience
+Timeline-based professional experience
 
-Professional achievements
+Key achievements and milestones
 
-Education background
+Education and certification background
 
 3. Portfolio
-Certifications Gallery - CompTIA +, ISC2 CC, AWS, CCNA, ITIL V4, and more
+Certifications Gallery - CompTIA+, ISC2 CC, AWS, CCNA, ITIL V4
 
-Projects Showcase - Technical implementations
+Projects Showcase - Technical implementations and solutions
 
-Interactive lightbox preview
+Interactive lightbox preview for detailed viewing
 
 4. Contact
 Multiple contact methods
@@ -109,20 +106,20 @@ Direct communication options
 
 🚀 Performance & Accessibility
 Optimizations
-No external dependencies - Faster load times
+Zero Dependencies - Faster load times and better security
 
-CSS Grid/Flexbox - Efficient layouts
+CSS Grid/Flexbox - Efficient, modern layouts
 
-Optimized images - With fallback handling
+Optimized Images - Fast loading with fallback handling
 
-CDN delivery - Global performance
+CDN Delivery - Global performance via AWS CloudFront
 
 Accessibility
 Semantic HTML structure
 
 ARIA labels and roles
 
-Keyboard navigation
+Full keyboard navigation
 
 Screen reader friendly
 
@@ -147,41 +144,38 @@ Security: SSL/TLS encryption
 
 Hosting: AWS infrastructure
 
-Features Demonstrated
+Technical Skills Demonstrated
 Cloud infrastructure management
 
-Security implementation (SSL)
+Security implementation (SSL/TLS)
 
 Performance optimization (CDN)
 
 Professional deployment practices
 
 💼 Professional Value
-This portfolio demonstrates:
+This portfolio demonstrates real-world expertise in:
 
-✅ Frontend development expertise
-
-✅ AWS cloud infrastructure skills
-
-✅ Security and performance awareness
-
-✅ Professional deployment experience
-
-✅ Responsive design principles
+✅ Frontend Development - Modern, responsive web design
+✅ AWS Cloud Infrastructure - Enterprise deployment and management
+✅ Security Best Practices - SSL implementation and secure architecture
+✅ Performance Optimization - CDN integration and fast loading
+✅ Professional Standards - Production deployment and maintenance
 
 🔧 Local Development
 Clone or download project files
 
-Open index.html in a web browser
+Open index.html in any modern web browser
 
 All functionality works locally without build process
 
+Test responsive design across different screen sizes
+
 📞 Contact
 Ryan Bertulfo
-Security & Network Operations
+Security & Network Operations Professional
 📧 ryanbertulfo@gmail.com
 📍 Singapore
 🌐 https://ryberts.cloud
 
 Built with modern web standards and deployed on enterprise AWS infrastructure. 🚀
-
