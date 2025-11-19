@@ -50,8 +50,10 @@ portfolio/
 --text-primary: #f1f5f9
 
 ```
+
 ###⚡ **Interactive Features**
 Navigation System
+
 Single Page Application (SPA) with seamless tab switching
 
 Keyboard shortcuts (Alt+1,2,3,4) for quick navigation
