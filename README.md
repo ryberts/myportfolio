@@ -50,7 +50,7 @@ portfolio/
 --text-primary: #f1f5f9
 
 ```
-⚡ Interactive Features
+###⚡ **Interactive Features**
 Navigation System
 Single Page Application (SPA) with seamless tab switching
 
@@ -60,7 +60,7 @@ Active state persistence across sessions
 
 Smooth scroll animations
 
-Portfolio Gallery
+### **Portfolio Gallery**
 Certificate lightbox preview with click-to-view
 
 Hover animations and interactive elements
@@ -105,8 +105,8 @@ Professional social links
 
 Direct communication options
 
-🚀 Performance & Accessibility
-Optimizations
+### 🚀 **Performance & Accessibility Optimizations**
+
 Zero Dependencies - Faster load times and better security
 
 CSS Grid/Flexbox - Efficient, modern layouts
@@ -124,7 +124,8 @@ Full keyboard navigation
 
 Screen reader friendly
 
-🌐 Browser Support
+### 🌐 **Browser Support**
+
 Chrome (Latest)
 
 Firefox (Latest)
@@ -135,7 +136,7 @@ Edge (Latest)
 
 Mobile browsers (iOS/Android)
 
-📈 Deployment
+### 📈 **Deployment**
 Production Environment
 Domain: ryberts.cloud
 
@@ -154,7 +155,8 @@ Performance optimization (CDN)
 
 Professional deployment practices
 
-💼 Professional Value
+### 💼 **Professional Value**
+
 This portfolio demonstrates real-world expertise in:
 
 ✅ Frontend Development - Modern, responsive web design
@@ -163,7 +165,7 @@ This portfolio demonstrates real-world expertise in:
 ✅ Performance Optimization - CDN integration and fast loading
 ✅ Professional Standards - Production deployment and maintenance
 
-🔧 Local Development
+### 🔧 **Local Development**
 Clone or download project files
 
 Open index.html in any modern web browser
