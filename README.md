@@ -6,14 +6,14 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#overview">Overview</a></li>
-    <li><a href="#tech-stack">Tech Stack</a></li>
-    <li><a href="#project-structure">Project Structure</a></li>
-    <li><a href="#design-features">Design Features</a></li>
-    <li><a href="#interactive-features">Interactive Features</a></li>
-    <li><a href="#sections">Sections</a></li>
-    <li><a href="#browser-support">Browser Support</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#🚀-overview">Overview</a></li>
+    <li><a href="#🛠️-tech-stack">Tech Stack</a></li>
+    <li><a href="#📁-project-structure">Project Structure</a></li>
+    <li><a href="#🎨-design-features">Design Features</a></li>
+    <li><a href="#⚡-interactive-features">Interactive Features</a></li>
+    <li><a href="#📱-sections">Sections</a></li>
+    <li><a href="#🌐-browser-support">Browser Support</a></li>
+    <li><a href="#☎️-contact">Contact</a></li>
   </ol>
 </details>
 
