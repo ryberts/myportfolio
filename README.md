@@ -6,14 +6,14 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#🚀-overview">Overview</a></li>
-    <li><a href="#🛠️-tech-stack">Tech Stack</a></li>
-    <li><a href="#📁-project-structure">Project Structure</a></li>
-    <li><a href="#🎨-design-features">Design Features</a></li>
-    <li><a href="#⚡-interactive-features">Interactive Features</a></li>
-    <li><a href="#📱-sections">Sections</a></li>
-    <li><a href="#🌐-browser-support">Browser Support</a></li>
-    <li><a href="#☎️-contact">Contact</a></li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#tech-stack">Tech Stack</a></li>
+    <li><a href="#project-structure">Project Structure</a></li>
+    <li><a href="#design-features">Design Features</a></li>
+    <li><a href="#interactive-features">Interactive Features</a></li>
+    <li><a href="#sections">Sections</a></li>
+    <li><a href="#browser-support">Browser Support</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -21,13 +21,13 @@
 
 🌐 **Live Site:** [https://ryberts.cloud](https://ryberts.cloud)
 
-## 🚀 Overview
+## Overview
 
 A modern, high-performance portfolio website showcasing my expertise as a **Security & Network Operations professional**. Built with pure **HTML, CSS, and JavaScript**, deployed on **AWS** with enterprise-grade infrastructure for optimal performance and security.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **HTML5** - Semantic markup with accessibility focus
@@ -41,7 +41,7 @@ A modern, high-performance portfolio website showcasing my expertise as a **Secu
 - 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📁 Project Structure
+## Project Structure
 ```
 portfolio/
 ├── index.html # Main HTML structure
@@ -55,7 +55,7 @@ portfolio/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🎨 Design Features
+## Design Features
 
 ### Visual Design
 - **Dark/Light Theme Toggle** - Persistent user preference
@@ -82,7 +82,7 @@ portfolio/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## ⚡Interactive Features
+## Interactive Features
 
 <li>
 Navigation System </li>
@@ -109,7 +109,7 @@ Navigation System </li>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📱 Sections
+##  Sections
 
 ### 1. About Me
 Professional summary and background
@@ -142,7 +142,7 @@ Direct communication options
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🌐 Browser Support
+## Browser Support
 
 Chrome (Latest)
 
@@ -156,7 +156,7 @@ Mobile browsers (iOS/Android)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ☎️ Contact
+## Contact
 
  [![LinkedIn][linkedin-shield]][linkedin-url]  
 
