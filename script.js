@@ -290,7 +290,7 @@ function createLightbox() {
     position: absolute;
     top: 20px;
     right: 35px;
-    color: #fff;
+    color: #0a19a1ff;
     font-size: 50px;
     font-weight: bold;
     cursor: pointer;
@@ -504,3 +504,122 @@ document.addEventListener('DOMContentLoaded', function() {
   
   console.log('✅ Portfolio initialized with centered layout!');
 });
+// ===================================
+// PRIVATE ANALYTICS DASHBOARD
+// ===================================
+
+class PrivateAnalytics {
+    constructor() {
+        this.storageKey = 'portfolio_analytics_data';
+        this.adminKey = 'portfolio_admin_mode';
+        this.init();
+    }
+
+    init() {
+        this.trackVisit();
+        this.setupAdminAccess();
+    }
+
+    trackVisit() {
+        const data = this.getAnalyticsData();
+        
+        // Update visitor stats
+        data.totalVisits = (data.totalVisits || 0) + 1;
+        
+        // Track unique visitors (by day)
+        const today = new Date().toDateString();
+        if (!data.dailyVisits) data.dailyVisits = {};
+        data.dailyVisits[today] = (data.dailyVisits[today] || 0) + 1;
+        
+        // Update last visit
+        data.lastVisit = new Date().toISOString();
+        
+        this.saveAnalyticsData(data);
+    }
+
+    getAnalyticsData() {
+        try {
+            const data = localStorage.getItem(this.storageKey);
+            return data ? JSON.parse(data) : {};
+        } catch (error) {
+            return {};
+        }
+    }
+
+    saveAnalyticsData(data) {
+        try {
+            localStorage.setItem(this.storageKey, JSON.stringify(data));
+        } catch (error) {
+            console.log('Could not save analytics data');
+        }
+    }
+
+    setupAdminAccess() {
+        // Secret key combination to show analytics (Ctrl+Shift+Q)
+        document.addEventListener('keydown', (e) => {
+            if (e.ctrlKey && e.shiftKey && e.key === 'Q') {
+                e.preventDefault();
+                this.toggleAdminMode();
+            }
+        });
+    }
+
+    toggleAdminMode() {
+        const isAdmin = localStorage.getItem(this.adminKey) === 'true';
+        localStorage.setItem(this.adminKey, (!isAdmin).toString());
+        
+        if (!isAdmin) {
+            this.showAnalyticsPanel();
+            console.log('🔓 Analytics mode activated');
+        } else {
+            this.hideAnalyticsPanel();
+            console.log('🔒 Analytics mode deactivated');
+        }
+    }
+
+    showAnalyticsPanel() {
+        const analyticsPanel = document.getElementById('admin-analytics');
+        const panel = analyticsPanel.querySelector('.analytics-panel');
+        const toggleBtn = analyticsPanel.querySelector('.analytics-toggle');
+        
+        analyticsPanel.style.display = 'block';
+        panel.classList.add('show');
+        toggleBtn.style.display = 'flex';
+        
+        this.updateAnalyticsDisplay();
+    }
+
+    hideAnalyticsPanel() {
+        const analyticsPanel = document.getElementById('admin-analytics');
+        const panel = analyticsPanel.querySelector('.analytics-panel');
+        const toggleBtn = analyticsPanel.querySelector('.analytics-toggle');
+        
+        panel.classList.remove('show');
+        // Keep toggle button visible but hide panel
+    }
+
+    updateAnalyticsDisplay() {
+        const data = this.getAnalyticsData();
+        
+        // Calculate unique visitors (count unique days)
+        const uniqueVisitors = data.dailyVisits ? Object.keys(data.dailyVisits).length : 0;
+        
+        document.getElementById('admin-total-visitors').textContent = data.totalVisits || 0;
+        document.getElementById('admin-unique-visitors').textContent = uniqueVisitors;
+        
+        if (data.lastVisit) {
+            const lastVisit = new Date(data.lastVisit);
+            document.getElementById('admin-last-visit').textContent = 
+                lastVisit.toLocaleDateString() + ' ' + lastVisit.toLocaleTimeString();
+        }
+    }
+}
+
+// Toggle function for the button
+function toggleAnalytics() {
+    const panel = document.querySelector('.analytics-panel');
+    panel.classList.toggle('show');
+}
+
+// Initialize private analytics
+const privateAnalytics = new PrivateAnalytics();
